@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #1f4037; 
+    background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  
+    background: linear-gradient(to right, #99f2c8, #1f4037); 
+}
+.title > h1 {
+    color: darkgreen;
+    text-align: center;
+    padding-top: 90px;
+}
+.title{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+}
+.slider{
+    width: 100%;
+    border: 2px solid red;
+    box-shadow: blue;
+    border-radius: 10px;
+    
+}
+
+
+.navLink{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+li{
+    margin: 10px 10px;
+}
+h2{
+    
+    position: relative;
+    margin-left: 38%;
+    width: 330px;
+    padding: 2%;
+    background-color: rgb(138, 83, 184);
+    border-radius : 50px;
+    color: white;
+    text-align: center;
+}
+.contentBox{
+    width: fit-content;
+    margin-left: 35%;
+    padding: 5%;
+    background: #360033;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    justify-items: center;
+    
+}
+.contentBox img{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    box-shadow: 1px 0px 20px 12px rgba(240,240,240,0.2);
+}
+h5{
+    color: white;
+}
+
+.contentBox p{
+    color: white;
+}
+.slider{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 80%;
+    margin-left: 10%;
+    background-color: transparent ;
+    
+}
+.contentBox button{
+    border: none;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+    background: rgba(245,245,245,0.1);
+}
+#songName{
+    text-transform: capitalize;
+    color: #fff;
+}
+#playnPause{
+    background: #FF8A65;
+}
+.contentBox button:hover{
+    background: #FF8A65;
+}
+.aboutme img{
+    margin-left: 35%;
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+}
+.contMe img{
+
+    height: 30px;
+    width: 30px;
+}
+.aboutme{
+    border: 2px solid red;
+    
+    
+    
+}
+
+.contMe{
+    position: relative;
+    text-align: left;
+    border: 2px solid purple;
+}
